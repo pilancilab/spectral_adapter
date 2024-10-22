@@ -90,7 +90,7 @@ See table below for training hyperparameters we used for each method, the corres
 | Spectral | r=24  | 1e-4 | 1e-2 | 
 | Spectral | r=32  | 1e-4 | 5e-2 | 
 
-We also print corresponding # trainable params as part of training progression logs.
+We also print corresponding <code># trainable params</code> as part of training progression logs.
 
 ## Acknowledgements
-This repo is directly extended from [Mix-of-Show](https://github.com/TencentARC/Mix-of-Show/tree/main). 
+This folder is directly extended from [Mix-of-Show](https://github.com/TencentARC/Mix-of-Show/tree/main). 
