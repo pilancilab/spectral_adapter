@@ -89,4 +89,6 @@ To compute the image & text alignment score, after generating all figures and st
 cd alignment_score
 python image_alignment.py
 ```
+## Acknowledgements
+This folder is directly extended from [Mix-of-Show](https://github.com/TencentARC/Mix-of-Show/tree/main). 
 
