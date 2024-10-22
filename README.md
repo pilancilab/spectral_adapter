@@ -27,3 +27,23 @@ In this project, we experiments with language model fine-tuning and diffusion mo
 3. Mistral 7B Fine-Tuning (see [mistral_tune/](mistral_tune) for experiment code.)
 4. Adapter Fusion (see [adapter_fusion/](adapter_fusion) for experiment code.)
 5. Adapter Efficiency (see [adapter_efficiency/](adapter_efficiency) for experiment code.)
+
+## References and Acknowledgements
+Our diffusion model experiment code is mainly built on the following repositories: [Mix-of-Show](https://github.com/TencentARC/Mix-of-Show/tree/main). 
+
+## Contact
+Please contact us or post an issue if you have any questions.
+* Fangzhao Zhang (zfzhao@stanford.edu)
+
+## Citation
+```BibTeX
+@misc{zhang2024spectraladapterfinetuningspectral,
+      title={Spectral Adapter: Fine-Tuning in Spectral Space}, 
+      author={Fangzhao Zhang and Mert Pilanci},
+      year={2024},
+      eprint={2405.13952},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2405.13952}, 
+}
+```
