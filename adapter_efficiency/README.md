@@ -7,7 +7,7 @@ Paper: [https://arxiv.org/abs/2405.13952](https://arxiv.org/abs/2405.13952) <br>
 
 This repository is for reproducing Figure 5 result:
 <p>
-<img src="figures/animal_img2-01.png" width="800" >
+<img src="figures/vase.png" width="800" >
 </p>
 
 ## Quickstart
