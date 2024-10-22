@@ -25,3 +25,5 @@ In this project, we experiments with language model fine-tuning and diffusion mo
 1. LLama3-8B Fine-Tuning (see [llama3_tune/](llama3_tune) for experiment code.)
 2. DeBERTaV3-base Fine-Tuning (see [deberta_tune/](deberta_tune) for experiment code.)
 3. Mistral 7B Fine-Tuning (see [mistral_tune/](mistral_tune) for experiment code.)
+4. Adapter Fusion (see [adapter_fusion/](adapter_fusion) for experiment code.)
+5. Adapter Efficiency (see [adapter_efficiency/](adapter_efficiency) for experiment code.)
