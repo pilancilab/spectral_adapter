@@ -1,0 +1,20 @@
+[
+    {
+        "lora_path": "experiments/orthogonal/0015_mystique_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<mystique1> <mystique2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/0009_potter_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<potter1> <potter2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/0003_gosling_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<gosling1> <gosling2>"
+    }
+]

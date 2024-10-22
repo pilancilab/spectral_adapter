@@ -1,0 +1,20 @@
+[
+    {
+        "lora_path": "experiments/orthogonal/0016_hulk_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 2.5,
+        "text_encoder_alpha": 2.5,
+        "concept_name": "<hulk1> <hulk2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/1004_dog3_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 2.5,
+        "text_encoder_alpha": 2.5,
+        "concept_name": "<dog3_1> <dog3_2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/0009_potter_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 2.5,
+        "text_encoder_alpha": 2.5,
+        "concept_name": "<potter1> <potter2>"
+    }
+]

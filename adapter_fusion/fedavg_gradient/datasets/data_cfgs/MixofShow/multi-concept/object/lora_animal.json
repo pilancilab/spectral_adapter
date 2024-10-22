@@ -1,0 +1,20 @@
+[
+    {
+        "lora_path": "experiments/catA_lora/models/edlora_model-latest.pth",
+        "unet_alpha": 1,
+        "text_encoder_alpha": 1,
+        "concept_name": "<catA1> <catA2>"
+    },
+    {
+        "lora_path": "experiments/dogA_lora/models/edlora_model-latest.pth",
+        "unet_alpha": 1,
+        "text_encoder_alpha": 1,
+        "concept_name": "<dogA1> <dogA2>"
+    },
+    {
+        "lora_path": "experiments/dogB_lora/models/edlora_model-latest.pth",
+        "unet_alpha": 1,
+        "text_encoder_alpha": 1,
+        "concept_name": "<dogB1> <dogB2>"
+    }
+]

@@ -1,0 +1,11 @@
+pretrained_model: experiments/composed_edlora/chilloutmix/animal/combined_model_base
+context_prompt: <dogB1> <dogB2> and <catA1> <catA2> and <dogA1> <dogA2> on a playground, in school
+neg_context_prompt: dark, low quality, low resolution
+sketch_condition: datasets/validation_spatial_condition/multi-objects/dogA_catA_dogB.jpg
+sketch_adaptor_weight: 1.0
+region_sketch_adaptor_weight: 
+keypose_condition: 
+keypose_adaptor_weight: 1.0
+region_keypose_adaptor_weight: 
+random seed: 7
+prompt_rewrite: a <dogB1> <dogB2> on a playground, in school-*-[dark, low quality, low resolution]-*-[160, 76, 505, 350]|a <catA1> <catA2> on a playground, in school-*-[dark, low quality, low resolution]-*-[162, 370, 500, 685]|a <dogA1> <dogA2> on a playground, in school-*-[dark, low quality, low resolution]-*-[134, 666, 512, 1005]

@@ -1,0 +1,26 @@
+2024-10-19 16:30:25,200 INFO: Namespace(concept_cfg='datasets/data_cfgs/MixofShow/multi-concept/object/spectral_animal.json', save_path='experiments/spectral_fusion/chilloutmix/spectral_animal', suffix='base', pretrained_models='experiments/pretrained_models/chilloutmix', optimize_unet_iters=50, optimize_textenc_iters=500)
+2024-10-19 16:30:25,201 INFO: ------Step 1: load stable diffusion checkpoint------
+2024-10-19 16:30:30,723 INFO: ------Step 2: load new concepts checkpoints------
+2024-10-19 16:30:31,585 INFO: ------Step 3: merge token embedding------
+2024-10-19 16:30:32,418 INFO: concept <catA1> is bind with token_id: [49408, 49423]
+2024-10-19 16:30:32,425 INFO: concept <catA2> is bind with token_id: [49424, 49439]
+2024-10-19 16:30:32,432 INFO: concept <dogA1> is bind with token_id: [49440, 49455]
+2024-10-19 16:30:32,437 INFO: concept <dogA2> is bind with token_id: [49456, 49471]
+2024-10-19 16:30:32,440 INFO: concept <dogB1> is bind with token_id: [49472, 49487]
+2024-10-19 16:30:32,443 INFO: concept <dogB2> is bind with token_id: [49488, 49503]
+2024-10-19 16:30:32,443 INFO: ------Step 4: merge text encoder------
+2024-10-19 16:30:32,444 INFO: text_encoder have 48 linear layer need to optimize
+2024-10-19 16:30:32,444 INFO: add 48 hooker to text_encoder
+2024-10-19 16:30:32,610 INFO: load 48 LoRAs of text_encoder
+2024-10-19 16:30:32,706 INFO: load 48 LoRAs of text_encoder
+2024-10-19 16:30:32,802 INFO: load 48 LoRAs of text_encoder
+2024-10-19 16:30:32,812 INFO: remove 48 hooker from text_encoder
+2024-10-19 16:30:32,816 INFO: ------Step 5: merge kv of cross-attention in unet------
+2024-10-19 16:30:32,818 INFO: Unet have 32 linear layer (related to text feature) need to optimize
+2024-10-19 16:30:33,937 INFO: ------Step 6: merge spatial attention (q in cross-attention, qkv in self-attention) in unet------
+2024-10-19 16:30:33,939 INFO: unet have 128 linear layer need to optimize
+2024-10-19 16:30:33,940 INFO: add 96 hooker to unet
+2024-10-19 16:30:34,301 INFO: load 96 LoRAs of unet
+2024-10-19 16:30:35,365 INFO: load 96 LoRAs of unet
+2024-10-19 16:30:35,717 INFO: load 96 LoRAs of unet
+2024-10-19 16:30:35,736 INFO: remove 96 hooker from unet

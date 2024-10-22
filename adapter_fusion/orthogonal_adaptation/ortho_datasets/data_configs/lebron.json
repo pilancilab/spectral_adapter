@@ -1,0 +1,8 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "ortho_datasets/data/Lebron/image",
+        "caption_dir": "ortho_datasets/data/Lebron/caption",
+        "mask_dir": "ortho_datasets/data/Lebron/mask"
+    }
+]

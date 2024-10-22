@@ -1,0 +1,20 @@
+[
+    {
+        "lora_path": "experiments/orthogonal/0011_thanos_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<thanos1> <thanos2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/0013_fox_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<foxx1> <foxx2>"
+    },
+    {
+        "lora_path": "experiments/orthogonal/0012_trump_ortho/models/edlora_model-latest.pth",
+        "unet_alpha": 1.8,
+        "text_encoder_alpha": 1.8,
+        "concept_name": "<trump1> <trump2>"
+    }
+]
