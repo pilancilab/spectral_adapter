@@ -80,22 +80,8 @@ results stored in <code>fedavg_gradient/results/</code>.
  sh regionally_sample.sh
  ```
 results stored in <code>orthogonal_adaptation/results/</code>.
-## Reproducibility Shortcuts
-for better reproducibility, we store the single-concept adapters we used for generating Figure 5. Therefore, one can directly fuse them for reproducing our results. After downloading pretrained models in each directory,
-```
-cd spectral
-sh spectral_fuse.sh
-sh fedavg_regionally_sample.sh
-cd ../fedavg_gradient
-sh fedavg_fuse.sh
-sh fedavg_regionally_sample.sh
-sh gradient_fuse.sh
-sh gradient_regionally_sample.sh
-cd ../orthogonal_adaptation
-sh fuse.sh
-sh regionally_sample.sh
-```
-check results in <code>spectral/results, fedavg_gradient/results, orthogonal_adaptation/results</code> respectively. We also provide detailed logs for each model trained and each picture generated (attached to each file) for guidance.
+## Reproducibility Tips
+For better reproducibility, we provide detailed logs for each model trained and each picture generated (attached to each file) for guidance.
 
 ## Alignment Score Computation
 To compute the image & text alignment score, after generating all figures and store them in <code>fedavg_gradient/results, fedavg_gradient/results, orthogonal_adaptation/results</code>, run
